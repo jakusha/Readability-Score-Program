@@ -13,7 +13,7 @@ class Main {
 	static int averageCall = 0;
 	public static void main(String[] args) {
 
-		File file = new File("/home/ebube/eclipse-workspace/Practice/src/mess.txt");
+		File file = new File(args[0]);
 		Scanner scan;
 		String sentences = "";
 		try {
